@@ -16,11 +16,11 @@
                     <div class="card-header">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <span>
-                                OAuth Clients - Venues
+                                OAuth Clients
                             </span>
 
                             <a class="action-link" @click="showCreateClientForm">
-                                Create New Venue
+                                Create New Client
                             </a>
                         </div>
                     </div>
@@ -104,14 +104,14 @@
                                 <form class="form-horizontal" role="form">
                                     <!-- Name -->
                                     <div class="form-group">
-                                        <label class="col-md-3 control-label">Venue Name</label>
+                                        <label class="col-md-3 control-label">Client Name</label>
 
                                         <div class="col-md-7">
                                             <input id="create-client-name" type="text" class="form-control"
                                                    @keyup.enter="store" v-model="createForm.name">
 
                                             <span class="help-block">
-                                                Something your users will recognize and trust.
+                                                Something your users will recognize and trust (public).
                                             </span>
                                         </div>
                                     </div>
@@ -177,7 +177,7 @@
                                                    @keyup.enter="update" v-model="editForm.name">
 
                                             <span class="help-block">
-                                                Something your users will recognize and trust.
+                                                Something your users will recognize and trust (public).
                                             </span>
                                         </div>
                                     </div>

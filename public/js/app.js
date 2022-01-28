@@ -29859,7 +29859,7 @@ var render = function () {
               [
                 _c("span", [
                   _vm._v(
-                    "\n                            OAuth Clients - Venues\n                        "
+                    "\n                            OAuth Clients\n                        "
                   ),
                 ]),
                 _vm._v(" "),
@@ -29871,7 +29871,7 @@ var render = function () {
                   },
                   [
                     _vm._v(
-                      "\n                            Create New Venue\n                        "
+                      "\n                            Create New Client\n                        "
                     ),
                   ]
                 ),
@@ -30028,7 +30028,7 @@ var render = function () {
                     [
                       _c("div", { staticClass: "form-group" }, [
                         _c("label", { staticClass: "col-md-3 control-label" }, [
-                          _vm._v("Venue Name"),
+                          _vm._v("Client Name"),
                         ]),
                         _vm._v(" "),
                         _c("div", { staticClass: "col-md-7" }, [
@@ -30075,7 +30075,7 @@ var render = function () {
                           _vm._v(" "),
                           _c("span", { staticClass: "help-block" }, [
                             _vm._v(
-                              "\n                                            Something your users will recognize and trust.\n                                        "
+                              "\n                                            Something your users will recognize and trust (public).\n                                        "
                             ),
                           ]),
                         ]),
@@ -30256,7 +30256,7 @@ var render = function () {
                           _vm._v(" "),
                           _c("span", { staticClass: "help-block" }, [
                             _vm._v(
-                              "\n                                            Something your users will recognize and trust.\n                                        "
+                              "\n                                            Something your users will recognize and trust (public).\n                                        "
                             ),
                           ]),
                         ]),
